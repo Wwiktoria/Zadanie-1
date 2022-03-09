@@ -2,7 +2,6 @@
 #define pi 3.14
 int main(void) {
   int r;
-  float promień[100];
   printf ("Wprowadź promień: ");
   scanf("%f",&r );
   if (r<0)
