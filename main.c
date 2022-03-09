@@ -4,8 +4,7 @@ int main(void) {
   int r;
   float promień[100];
   printf ("Wprowadź promień: ");
-  fgets(promień,100,stdin);
-  r=atoi(promień);
+  scanf("%f",&r );
   if (r<0)
   {printf("Niepoprawne dane\n");}
   else
